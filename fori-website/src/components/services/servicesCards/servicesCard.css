@@ -1,0 +1,81 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+.banner5{
+  /* margin: 0px 0px 0px 2rem; */
+  padding: 5.87rem 0rem 1rem 5.87rem;
+}
+.slick-slider{
+width: 100%;
+margin-bottom: 2rem;
+padding-left:1rem ;
+}
+.slick-slide{
+  margin:1rem;
+}
+.slick-track {
+  height:fit-content;
+}
+.slick-list {
+  height:auto;
+}
+
+.b5_heading {
+  font-weight: bold;
+  color:#E12121;
+  text-align: left;
+}
+.b5_para{
+  font-size: 1.3em;
+  color:#707070;
+  font-weight: lighter;
+  width:80%;
+}
+.b5_Card_para {
+  font-size: 1rem;
+  color:#707070;
+  font-weight: lighter;
+  text-align: left;
+}
+.b5_Card_heading{
+  color:#707070;
+  font-size: 1.7rem;
+}
+.b5_Card_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 15rem;
+}
+.b5_Card_img>img{
+  width:150%;
+  height: 30rem;
+  padding-top: 5rem;
+  /* background-color:#f5f5f5; */
+}
+.b5_Card_showBtn{
+  border: none;
+  background-color: white;
+  color:#707070;
+  margin: 0;
+  padding: 0;
+  display: contents;
+}
+@media only screen and (max-width: 900px) {
+  .banner5{
+    margin: 0rem 0rem;
+    padding: .1rem;
+  }
+  .b5_heading {
+    text-align: center;
+  }
+  .b5_para{
+    width:100%;
+    text-align: justify;
+    padding: 2rem;
+  }
+  .b5_Card_para{
+    text-align: justify;
+  }
+}

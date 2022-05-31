@@ -1,0 +1,54 @@
+
+.services_box1-content{
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.services_box1-content>h1{
+  color:#E12121;
+  font-weight: bold;
+  font-size:3.4rem;
+}
+.services_box1_C{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.services_img{
+  width:100%;
+}
+.services_top_para {
+  font-weight: lighter;
+  font-size: 1.3rem;
+  padding: 1rem;
+  color: #707070;
+}
+.services_cards_box {
+  display: flex;
+  justify-content: center;
+  gap:2rem;
+  padding: 3rem;
+  flex-wrap: wrap;
+}
+.services_card{
+  width: 25rem;
+  height: 90%;
+}
+.services_caresoul_card{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 0 0 4rem;
+}
+.services_caresoul_Card_img{
+
+  width:50rem;
+}
+.services_caresoul_img{
+width:100%;
+}
+.services_slider{
+  padding:3rem .3rem 1rem .3rem;
+background-color: #E12121;
+}

@@ -1,0 +1,120 @@
+
+.services_box1-content{
+  padding-top: 2.68rem;
+  display: flex;
+  flex-direction: column;
+}
+.services_box1-content> div>h1{
+  color:#E12121;
+  font-weight: bold;
+  font-size:2.5rem;
+}
+.services_box1_C{
+    width: 80%;
+      padding: 1rem 1rem 1rem 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.services_img{
+  width:90%;
+}
+.services_top_para {
+  font-weight: lighter;
+  font-size: 1.3rem;
+  padding: 1rem;
+  color: #707070;
+}
+.services_cards_box {
+  display: flex;
+  justify-content: center;
+  gap:2rem;
+  padding: 3rem;
+  flex-wrap: wrap;
+}
+.services_card{
+  width: 25rem;
+  height: 30rem;
+}
+.services_card-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 13rem;
+}
+.services_card-img>img{
+  width:100%;
+}
+.services_card_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.services_caresoul_card{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 0 0 4rem;
+}
+.services_caresoul_Card_img{
+
+  width:15rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services_caresoul_img{
+width:100%;
+}
+.services_slider{
+  padding:3rem 0rem 1rem 0rem;
+background-color: #E12121;
+}
+
+
+@media only screen and (max-width: 1050px) {
+  .services_caresoul_card{
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+    padding: 0 0 0 1rem;
+  }
+  .services_caresoul_Card_img{
+
+    width:15rem;
+  }
+  .services_caresoul_img{
+    width:100%;
+  
+    }
+    .services_top_para {
+      padding: 3rem 2rem;
+      text-align: justify;
+
+    }
+
+    .services_img {
+    transform: scale(1.4);
+    margin-top: 5rem;
+    width: 120%;
+    }
+
+    .services_box1_C {
+    flex-direction: column;
+    overflow: hidden;
+    }
+
+      .services_card {
+        /* width: 100%; */
+      }
+      .services_cards_box {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        padding: 3rem;
+        flex-wrap: wrap;
+      }
+}

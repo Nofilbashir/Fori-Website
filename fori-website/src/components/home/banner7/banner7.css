@@ -1,0 +1,44 @@
+.b7 {
+  /* margin: 0rem 3.25rem 3rem 3.25rem; */
+}
+.b7_box {
+  padding-top: 2rem;
+  background-color: #E12121;
+  padding: 3.875rem 3.25rem 3.875rem 3.25rem;
+}
+.b7_info {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 15.3rem);
+  column-gap: 3rem;
+  row-gap: 2rem;
+  justify-content: center;
+  padding-top: 2.1rem;
+  
+ 
+}
+.b7_card {
+
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1vw; */
+  width: 14rem;
+  background-color: white;
+}
+
+.b7_heading {
+  font-weight: bold;
+  color:white;
+}
+.b7_para {
+  font-weight: lighter;
+  text-align: center;
+  font-size: 1.3rem;
+  color:white;
+  padding-top: 1.56rem;
+}
+
+html {
+  min-width: 200px;
+}

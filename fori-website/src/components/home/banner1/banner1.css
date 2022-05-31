@@ -1,0 +1,44 @@
+.container1 {
+  padding: 1rem 2rem 1rem 5.25rem;
+}
+.container1-background {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* .container1-box1{
+  padding-left: 6.125rem ;
+} */
+
+.container1-box1-heading {
+  padding-right: 1rem;
+  color: #E12121;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4.4rem;
+
+}
+
+.container1-box1-img {
+  padding: .5rem;
+  width: 47rem;
+}
+
+.container1-box1-img img {
+  width: 100%;
+}
+.container1-box1-Social-icons {
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr;
+
+  gap: 0.2rem;
+}
+.container1-box1-Social-icons>a{
+  color: #E12121;
+}
+.container1-box1-Social-icons>a:hover{
+  color:#f27979
+}
+.c1-icon {
+  font-size: 1.5rem;
+}

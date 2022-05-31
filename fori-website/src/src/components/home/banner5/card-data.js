@@ -1,0 +1,16 @@
+const data=[
+    
+    {img1:"Group49.png" ,h1:"Investment|Finacials",p1:"We provide with a digital platform that match workers to jobs and match consumers to services. The platform has a worker-facing side and consumer-facing side."},
+    {img1:"Group50.png" ,h1:"Gig Platform",p1:"We provide with a digital platform that match workers to jobs and match consumers to services. The platform has a worker-facing side and consumer-facing side."},
+    {img1:"Group57.png" ,h1:"AI/ML",p1:"Fori applies deep technological expertise in machine learning and artificial intelligence development services to help clients deliver personalization and customer convenience at scale. Our R&D capabilities and artificial intelligence software development for rapid prototyping and custom machine learning solutions empower clients to tap into unseen market segments, become more efficient, and achieve measurable business outcomes."},
+    {img1:"Group53.png" ,h1:"Board|Advisory",p1:"We accelerate startups by rapid designing, development & deployment of end-end technologies for impact focused startups. Fori also provides digital transformations and creates sustainable, smarter, and safer communities. If you are looking for a fully outsourced team, Fori has you covered. "},
+    {img1:"Group51.png" ,h1:"Prop  Technologies",p1:"Fori helps companies turn to tech to catch up with the new reality and keep a competitive edge while still making profits. Mostly, the office and retail sectors are already disrupted by technology (think sharing economy, home rental platforms, and coworking spaces). Proptech is transforming the real estate industry"},
+    {img1:"Group52.png" ,h1:"Dev Ops",p1:"We provide with a digital platform that match workers to jobs and match consumers to services. The platform has a worker-facing side and consumer-facing side."},
+    {img1:"Group54.png" ,h1:"Data Analysis",p1:"Fori applies deep technological expertise in machine learning and artificial intelligence development services to help clients deliver personalization and customer convenience at scale. Our R&D capabilities and artificial intelligence software development for rapid prototyping and custom machine learning solutions empower clients to tap into unseen market segments, become more efficient, and achieve measurable business outcomes."},
+    {img1:"Group55.png" ,h1:"Design Thinking Workshop",p1:"We accelerate startups by rapid designing, development & deployment of end-end technologies for impact focused startups. Fori also provides digital transformations and creates sustainable, smarter, and safer communities. If you are looking for a fully outsourced team, Fori has you covered. "},
+    {img1:"Group56.png" ,h1:"Mobility Solutions",p1:"We accelerate startups by rapid designing, development & deployment of end-end technologies for impact focused startups. Fori also provides digital transformations and creates sustainable, smarter, and safer communities. If you are looking for a fully outsourced team, Fori has you covered. "},
+   
+
+      ]
+
+export default data;

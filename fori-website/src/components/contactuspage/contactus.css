@@ -1,0 +1,139 @@
+.contact{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding: 0rem 4.5rem; */
+
+}
+.contact_box1_C1{
+  width: 80%;
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_box1_img {
+  padding: 0rem 0rem 2rem 0rem;
+  width: 90%;
+}
+.contact_box1_h{
+color: #E12121;
+  font-weight: bold;
+  font-size: 2.5rem;
+
+}
+.contact_box1-content{
+  padding-top: 2.68rem;
+    display: flex;
+    flex-direction: column;
+}
+/* .contact_box1 {
+  padding: 2rem 2rem 1.8rem 2rem;
+} */
+
+.contact_us_heading_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.contact_box1_icon {
+  color: #e21212;
+  font-size: 2rem;
+  /* margin-bottom: 1rem; */
+}
+.contact_box1_heading {
+  color: #e21212;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  margin-top: 0px;
+}
+.contact_text {
+  margin-bottom: 0px;
+  padding: 1rem 0rem;
+}
+.contact_para {
+  font-weight: lighter;
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #707070;
+
+}
+.contact_get {
+  font-weight: 600;
+  
+  font-size: 2.5rem;
+  color: #707070;
+
+}
+.contact_box2_form {
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+
+}
+.contact_box2_input {
+  margin-top: 1rem;
+  border-radius: 1.2rem;
+  height: 3rem;
+  background-color: #ededed;
+  border: 2px solid #ededed;
+  padding-left: 1rem;
+    font-weight: lighter;
+  
+  text-align: center;
+}
+.contact_box2_input:focus{
+  border:#fde9e9 2px solid;
+  outline: none;
+}
+.contact_message_box{
+  background-color: #ededed;
+  border: 2px solid #ededed;
+  border-radius: 1.2rem;
+  padding: 2rem 1rem;
+  margin-top: 1rem;
+  text-align: center;
+    font-weight: lighter;
+}
+
+.contact_message_box:focus {
+  border:#fde9e9 2px solid;
+  outline: none;
+}
+/* .contact_message_box:focus{
+  border:#fde9e9 2px solid;
+  outline: none;
+  text-align: left;
+  padding: .5rem 1rem;
+} */
+.contact_button {
+  border: 1px solid #e21212;
+  border-radius: 19px;
+  background-color: #e21212;
+  color: #efefef;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+@media only screen and (max-width: 1050px) {
+
+  /* .contact{
+    padding: 1rem 2rem;
+  } */
+  .contact_para {
+    padding: 3rem 2rem;
+      text-align: justify;
+
+  
+  }
+  .contact_box1_C1{
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .contact_box1_img {
+    transform: scale(1.4);
+    margin-top: 5rem;
+    width: 120%;
+  }
+}

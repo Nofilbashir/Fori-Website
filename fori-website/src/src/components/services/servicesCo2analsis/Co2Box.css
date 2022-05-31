@@ -1,0 +1,57 @@
+.co2Box {
+display:flex;
+align-items: center;
+}
+.b3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem 0 1rem 4rem;
+  width: 100%;
+}
+.co2Box_body_img {
+  padding: 1rem 4rem 1rem 2rem;
+  width: 100%;
+}
+.co2Box_body_img>img{
+  width: 100%;
+}
+.b3_box1_para {
+  font-weight: lighter;
+  text-align: left;
+  font-size: 1.3rem;
+  padding: 1rem 1rem 0 0;
+  color: #707070;
+}
+.dashBoard_link {
+  background-color: #e21212;
+  color: white;
+  border-radius: 1rem;
+  border: white;
+  box-shadow: 0px 0.1rem grey;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.8rem 1.2rem;
+  transition: 1s;
+  width: 12rem
+}
+.dashBoard_link:hover {
+  color: rgb(231, 232, 233);
+  box-shadow: 0px 0.2rem lightgrey;
+}
+@media only screen and (max-width: 700px) {
+  .co2Box {
+    flex-direction: column-reverse;
+    align-items: center;
+    }
+    .co2Box_body_img {
+      padding:1rem;
+      width: 100%;
+    }
+    .b3 {
+      padding: 1rem 0 1rem 1rem;
+      align-items: center;
+    }
+    
+}
+

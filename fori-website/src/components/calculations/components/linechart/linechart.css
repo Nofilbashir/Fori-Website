@@ -1,0 +1,42 @@
+.linegraphresponsive{
+    width:95%;
+    height:35rem;
+}
+/* .recharts-wrapper.areachart{
+    position: relative;
+    cursor: default;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .recharts-label{
+    transform-origin: 5% 46%;
+    transform: rotate(-90deg);
+} */
+
+.recharts-label{
+text-anchor: middle;
+}
+.recharts-text {
+    font-size: .8rem;
+}
+
+@media only screen and (max-width: 1300px) {
+
+
+    .linegraphresponsive{
+        width:100%;
+        height:30rem;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+
+
+    .linegraphresponsive{
+        width:100%;
+        height:18rem;
+    }
+
+}

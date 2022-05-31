@@ -1,0 +1,53 @@
+.b66{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 5.87rem 2rem 5.87rem;
+}
+.b66_card_heading{
+    color:#E12121;
+
+    font-weight: bold;
+}
+.b66_Card_list{
+    color:#707070;
+    list-style-type : none;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.b66_card_points{
+    display: flex;
+    padding:1rem 0 0 0;
+}
+.b66_Card_L{
+    padding-left: 1rem;
+}
+.b66__paper{
+    width:41.6rem;
+}
+.b66_paraBtn{
+    width:80%;
+    padding:4rem 3rem 1rem 2rem;
+}
+.b66_para
+{
+    font-size: 1.3em;
+    color:#707070;
+    font-weight: lighter;
+    text-align: justify;
+}
+@media only screen and (max-width: 750px) {
+    .b66{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .b66_paraBtn{
+        width:100%;
+        padding-top: 2rem ;
+    }
+    .b66__paper{
+        width:100%;
+    }
+}

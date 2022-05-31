@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.b2_boxx{
+  /* background-color: #E5E5E5; */
+}
+.b2_about {
+  margin: 0px 5.87rem 0px 5.87rem;
+}
+.b2_about_heading {
+  font-weight: bold;
+  padding: 2rem 0rem 0 0;
+  color: #707070;
+  text-align: center;
+}
+.b2_about_para {
+  font-weight: lighter;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: .5rem 0 1rem 0;
+  color: #707070;
+}

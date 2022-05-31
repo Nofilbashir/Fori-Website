@@ -1,0 +1,44 @@
+
+.calculations_page{
+    margin:0 4.5rem;
+}
+.calculations_box1{
+    padding: 3rem 0rem 3rem 0rem;
+}
+
+.calculations_box1>center>h1{
+    font-weight: bold;
+    font-size: 2rem;
+    color:#808080;
+}
+.calculations_box1>center>p{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin:0px;
+    color:#707070;
+
+}
+.calculations_box1>center>p>a{
+    font-weight: normal;
+
+}
+.calculations_page a { 
+    text-decoration: none;
+    color:#707070;
+    font-size: 1.4rem;
+    /* font-style: italic; */
+    
+
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+.calculations_page a:hover { 
+    text-decoration: underline;
+
+    color: #e12121
+
+    
+}
