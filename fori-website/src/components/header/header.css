@@ -87,6 +87,7 @@ body{
 .icon {
   height: 3rem;
   position: static;
+  margin-top: 0.8rem;
 }
 
 .signUp_link {

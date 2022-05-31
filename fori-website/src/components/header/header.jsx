@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router,Route,Routes,useParams,NavLink} from 'react-router-dom';
+import { BrowserRouter as Router,Route,Routes,useParams,NavLink, Link} from 'react-router-dom';
 import "./header.css"
 import Home from "../home/home";
 import Dashboard from '../dashBoard/Dashboard';
@@ -44,9 +44,9 @@ function Header(){
    
 
       <div className="NavBar" >
-      
+      <Link to='/'>
       <img className="icon" src={require("./logo.png")} alt="icon"/>
-
+      </Link>
       <div className="lap_links">
       <NavLink  to='/' className="lap_a" >Home</NavLink>
       {/* <NavLink className="lap_a" to='/product'>Product</NavLink> */}

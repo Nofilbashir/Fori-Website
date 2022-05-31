@@ -88,6 +88,7 @@ let calculation_api_controller = async (req, res) => {
     const { name, KmsShared } = req.body.UserInput;
     try {
         let country = await wrapperC.findCountryByName(name)
+        console.log(country)
         // .....................carbon emission saved per day/km............................................
         const EmissionSaved=(6.75 *((0.179)*(country.diesel) +(0.156)*(country.petrol) + (0.108)*(country.hybrid) ))/720;
         const userSavedEmission=EmissionSaved*KmsShared;

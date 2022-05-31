@@ -37,7 +37,7 @@ function NewsLetter(){
             <input type="text" name="name"  id="name"placeholder="Name" className="f_name" value={input.name} onChange={suscribe}/>
             <input type="email" name="email" id="email" placeholder="Your Email" className="f_name" value={input.email} onChange={suscribe} />
             {subscribed? <span style={{fontSize:"1rem", fontWeight:"lighter", textAlign:'center', paddingTop:"1rem"}}>Thankyou for subscribing to the newsletters</span>: null}
-            <button type="submit" id="suscribe" className="f_button">Suscribe</button>
+            <button type="submit" id="suscribe" className="primary_btn">Subscribe</button>
         </form>
         </>
     )

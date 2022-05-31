@@ -109,11 +109,10 @@ color: #E12121;
 } */
 .contact_button {
   border: 1px solid #e21212;
-  border-radius: 19px;
   background-color: #e21212;
   color: #efefef;
-  padding: 1rem 0.5rem 1rem 0.5rem;
-  margin: 1rem 1rem 1rem 1rem;
+  /* padding: 1rem 0.5rem 1rem 0.5rem; */
+  margin: 1rem 0rem;
 }
 
 @media only screen and (max-width: 1050px) {

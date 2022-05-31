@@ -31,7 +31,7 @@ export default class Example extends PureComponent {
              dataKey="Carbon_Emissions_Saved"
              label={{ value: 'carbondioxide in kg', angle: -90, position: 'insideLeft' ,textAnchor: 'middle' ,stroke:"transparent" ,strokeWidth:1 }}   />
           <Tooltip />
-          <Area type="line" dataKey="Carbon_Emissions_Saved" stroke="red" strokeWidth={5}  fill="#e01212" dot={{r:4,fill:"#e21212"}} />
+          <Area type="line" dataKey="Carbon_Emissions_Saved" stroke="#e12121" strokeWidth={4}  fill="#ff9d8a" dot={{r:4,fill:"#ff9d8a"}} />
         </AreaChart>
       </ResponsiveContainer>
       </div>

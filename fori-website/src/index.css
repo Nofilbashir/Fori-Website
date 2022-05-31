@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 
 /* font-family: 'Roboto Mono', monospace; */
 /* font-family: 'Barlow', sans-serif; */
@@ -7,3 +8,26 @@
 :root{
     scroll-behavior: smooth;
 }
+
+.primary_btn{
+    background-color: #e21212;
+    border-radius: .5rem;
+    /* height: 2.5rem; */
+    color:white;
+    padding: .6rem 2rem;
+    border:none;
+    font-size: 1.3rem;
+    font-family: 'Economica', sans-serif;
+  transition: 0.5s;
+
+  }
+  
+  .primary_btn:hover{
+    background-color: transparent;
+    border-radius: .5rem;
+    border:1px solid #e12121;
+    /* height: 2.5rem; */
+    color:#e12121;
+    font-size: 1.3rem;
+    font-family: 'Economica', sans-serif;
+  }

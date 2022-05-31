@@ -70,7 +70,7 @@ import Footer from '../footer/footer';
             <textarea id="message" name="message" rows="3" cols="12" placeholder="Enter your message here" className="contact_message_box" value={input.message} onChange={message}></textarea>
             {received? <span style={{fontSize:"1rem", fontWeight:"lighter", textAlign:'center', paddingTop:"1rem"}}>Your message is received! </span>: null}
 
-            <button type="submit" id="suscribe" className="contact_button" value="Send">Send Message</button>
+            <button type="submit" id="suscribe" className="contact_button primary_btn" value="Send">Send Message</button>
       </form>
       </center>
 

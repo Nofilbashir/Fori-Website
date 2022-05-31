@@ -13,10 +13,12 @@ export default class Example extends PureComponent {
       <PieChart onMouseEnter={this.onPieEnter}>
         <Pie
           data={this.props.data}
-          innerRadius="50%"
+          innerRadius={this.props.innerRadius}
           fill="#8884d8"
-          paddingAngle={2}
+          paddingAngle={5}
+          cornerRadius={this.props.cornerRadius}
           dataKey="value"
+          outerRadius={this.props.outerRadius}
 
           // onMouseEnter
         >

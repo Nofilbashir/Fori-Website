@@ -23,7 +23,7 @@ export default class Example extends PureComponent {
                /> 
           <Tooltip />
           <Legend/>
-          <Area type="line" dataKey="Carbon_Emissions_Saved_Yearly" stroke="red" strokeWidth={5}  fill="#e01212" dot={{r:4,fill:"#e21212"}} />
+          <Area type="line" dataKey="Carbon_Emissions_Saved_Yearly" stroke="#e12121" strokeWidth={4}  fill="#ff9d8a" dot={{r:4,fill:"#e21212"}} />
         </AreaChart>
       </ResponsiveContainer>
       </div>

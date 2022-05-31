@@ -98,7 +98,7 @@
     display: inline-block;
     background-color: #e21212;
     color: white;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     border: white;
     box-shadow: 0px 0.1rem lightgrey;
     text-align: center;
@@ -131,6 +131,7 @@
       border:0px solid gray;
       border-radius: 1rem;
       width:100%;
+      cursor: pointer;
   }
 
   #country:focus{
@@ -184,27 +185,31 @@
     flex-direction:column;
     color:#707070;
     gap:1rem;
-
-    
-    
    
+}
+
+.graph_para{
+    color: #707070;
 }
 .graphs__container__fcard__childs{
     padding:1.5rem;
     font-size:1.3rem;
     color:white;
+    border-radius: 2rem 0 2rem 0;
     
 }
-.graphs__container__fcard__childs:nth-child(1){
-    background-color:rgb(71 188 4)
+
+
+.graphs__container__fcard__childs:nth-child(3){
+    background-color: #ee5543;
 
 
 }
 .graphs__container__fcard__childs:nth-child(2){
-    background-color:rgb(70 107 150)
+    background-color:#f87b66;
 }
-.graphs__container__fcard__childs:nth-child(3){
-    background-color: rgb(235 132 129)
+.graphs__container__fcard__childs:nth-child(1){
+    background-color: #ff9d8a;
 }
 .graphs__container__cards>p{
     text-align: center;

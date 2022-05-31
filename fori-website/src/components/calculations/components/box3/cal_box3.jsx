@@ -14,11 +14,11 @@ function Cal_box3() {
     {name: 'Year 5',Carbon_Emissions_Saved: 4.7916}
   ];
   const data = [
-    { name: `Passenger Cars contribution %`, value: 41,color:"#2f0051"},
-    { name: "Comercial Cars contribution %", value:12,color:"#59088d"},
-    { name: 'Trucks and heavy vehicles contribution %', value: 25,color:"#fb0000"},
-    { name: 'Aviation contribution %', value: 8,color:"#ffa20c"},
-    { name: 'Shipping & rai contribution %', value: 14,color:"#8c0000"},
+    { name: `Passenger Cars contribution %`, value: 41,color:"#e12121"},
+    { name: "Comercial Cars contribution %", value:12,color:"#ee5543"},
+    { name: 'Trucks and Heavy vehicles contribution %', value: 25,color:"#f87b66"},
+    { name: 'Aviation contribution %', value: 8,color:"#ff9d8a"},
+    { name: 'Shipping & Rail contribution %', value: 14,color:"#ffbeb0"},
     
   ];
 
@@ -51,7 +51,7 @@ function Cal_box3() {
         <h1>Each shared EV reduce 15 private cars. In 2020 <a href='https://www.fueleconomy.gov/' target="_blank" rel="noopener noreferrer">Private cars contributed 41%</a> to the Transport sector <CO/></h1>
          <div className="b3_b4_img">
           <>
-         <Piechart data={data} legend={false} styless={{width:"50%",height:230}}/>
+         <Piechart data={data} legend={false} styless={{width:"50%",height:230}} innerRadius={50} outerRadius={80} cornerRadius={4}/>
         <ul className='b3_b4_ul'>
         {data.map((obj,index)=>{
           const color=obj.color;

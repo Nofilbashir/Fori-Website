@@ -61,16 +61,16 @@ function Cla_box4() {
           setNotify({selectCountry:false,kmsValue:false});
         axios({
           method: "POST",
-          url: "http://localhost:2000/api/calculation",
+          url: "http://localhost:3001/api/calculation",
           data: { UserInput: { name:userinput.country, KmsShared:userinput.kms} }
         }).then(response => {
           setrenderGraph(true)
           setPerdaysaving(response.data.data.perDaySaving)
           console.log(response.data.data)
            setpiedata([
-            { name: 'Diesel Cars %', value: response.data.data.d,color:"red"},
-            { name: 'Petrol Cars %', value: response.data.data.p,color:"orange"},
-            { name: 'Hybrid cars %', value: response.data.data.h,color:"blue"}
+            { name: 'Diesel Cars %', value: response.data.data.d,color:"#e12121"},
+            { name: 'Petrol Cars %', value: response.data.data.p,color:"#f87b66"},
+            { name: 'Hybrid cars %', value: response.data.data.h,color:"#ffbeb0"}
           ])
           setTressData(response.data.data.TressSaved)
           setFuelsaved(response.data.data.FuelSavedperkm)
@@ -110,10 +110,10 @@ function Cla_box4() {
       root: {
         backgroundColor: "#f7f7f7",
         border: 0,
-        borderRadius: "1rem",
+        borderRadius: "5rem",
         boxShadow: '0 3px 5px 2px lightgrey',
         color: 'white',
-        padding: '2rem 1rem',
+        padding: '2rem 2rem',
         width:"100%",
         height:"100%"
       },
@@ -164,7 +164,7 @@ function Cla_box4() {
               <input type="kms" name="kms" id="kms" placeholder={notify.kmsValue?"*required feild":null} className="f_name" value={userinput.kms} onChange={userData} />
           </div>
           </div>
-          <button type="submit">Calculate Your Impact</button>
+          <button type="submit" className='primary_btn'>Calculate Your Impact</button>
  
           
 
@@ -191,7 +191,7 @@ function Cla_box4() {
                     </div>
                     </div>
                     </Paper>
-                      <p>you saved {perDaysaving} Kg . Delectus atque odit officiis placeat ipsam nihil vero, necessitatibus dolorem debitis. Sapiente esse dolorum quae et atque veritatis magnam? Commodi, deserunt excepturi.</p>
+                      <p className='graph_para'>you saved {perDaysaving} Kg . Delectus atque odit officiis placeat ipsam nihil vero, necessitatibus dolorem debitis. Sapiente esse dolorum quae et atque veritatis magnam? Commodi, deserunt excepturi.</p>
                 </div>
 
 
@@ -200,7 +200,7 @@ function Cla_box4() {
                     <Paper className={classes.root}>
                     <Linegraph data={dataY}/>
                     </Paper>
-                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam quae pariatur incidunt magnam nulla blanditiis dolorem quis nemo laudantium itaque aliquid atque, provident quidem labore doloremque enim recusandae, libero eveniet!</p>
+                      <p className='graph_para'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam quae pariatur incidunt magnam nulla blanditiis dolorem quis nemo laudantium itaque aliquid atque, provident quidem labore doloremque enim recusandae, libero eveniet!</p>
                 </div>
 
 
@@ -210,7 +210,7 @@ function Cla_box4() {
                     <Paper className={classes.root}>
                       <BarChart data={tressData}/>
                     </Paper>
-                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam quae pariatur incidunt magnam nulla blanditiis dolorem quis nemo laudantium itaque aliquid atque, provident quidem labore doloremque enim recusandae, libero eveniet!</p>
+                      <p className='graph_para'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam quae pariatur incidunt magnam nulla blanditiis dolorem quis nemo laudantium itaque aliquid atque, provident quidem labore doloremque enim recusandae, libero eveniet!</p>
                 </div>
 
 
@@ -218,13 +218,10 @@ function Cla_box4() {
             {/* ..........................................4rd graph................................... */}
                 <div className='graphs__container__cards'>
                     <Paper className={classes.root}>
-
-                        
                       
-
-                    <PieChart data={piedata} legend={true} styless={{width:"100%",height: size }}/>
+                    <PieChart data={piedata} legend={true} styless={{width:"100%",height: size }} innerRadius={90} outerRadius={125} cornerRadius={5}/>
                     </Paper>
-                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam quae pariatur incidunt magnam nulla blanditiis dolorem quis nemo laudantium itaque aliquid atque, provident quidem labore doloremque enim recusandae, libero eveniet!</p>
+                      <p className='graph_para'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam quae pariatur incidunt magnam nulla blanditiis dolorem quis nemo laudantium itaque aliquid atque, provident quidem labore doloremque enim recusandae, libero eveniet!</p>
                 </div>
             {/*...........................................4rd graph end here.............................  */}
           </div>

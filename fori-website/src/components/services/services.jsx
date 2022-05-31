@@ -16,13 +16,12 @@ function Services(){
         root: {
           backgroundColor: "#f7f7f7",
           border: 0,
-          borderRadius: "1rem",
+          borderRadius: "2rem",
           boxShadow: '0 3px 5px 2px lightgrey',
           color: 'white',
-          padding: '2rem 1rem',
-        
+          padding: '2rem 2rem',
           width:"100%",
-          height:"100%"
+          height:"25rem",
           // height:show ? "37rem" : "27rem" 
         },
       });
@@ -51,6 +50,8 @@ function Services(){
       slidesToScroll: 1,
       initialSlide: 1,
       variableWidth: true, 
+      autoplay:true,
+      autoplaySpeed:1500,
       responsive: [
         {
           breakpoint: 930,

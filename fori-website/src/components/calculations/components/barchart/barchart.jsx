@@ -61,7 +61,7 @@ export default class Example extends PureComponent {
             />
           <Tooltip />
           <Legend iconSize={'0.5rem'} iconType={'circle'}/>
-          <Bar dataKey="Trees_Saved" fill="#8884d8" background={{ fill: '#eee' }} />
+          <Bar dataKey="Trees_Saved" fill="#ee5543" background={{ fill: '#ffded7' }} barSize={35} radius={[25, 25, 0, 0]}/>
         </BarChart>
       </ResponsiveContainer>
       </div>

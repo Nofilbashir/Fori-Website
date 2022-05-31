@@ -18,6 +18,15 @@
   align-items: center;
 }
 
+.Signup__Top-text{
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.Signup__Top-text span{
+  font-size: 1.2rem;
+  color: #707070;
+}
+
 .signup_input_box{
   background-color: rgb(243, 242, 242);
   border-radius: .5rem;
@@ -33,15 +42,7 @@
   border:2px solid #e21212;
   outline: none;
 }
-.signup_btn{
-  background-color: #e21212;
-  border-radius: .5rem;
-  /* height: 2.5rem; */
-  color:white;
-  padding: .5rem 2rem;
-  border:none;
-  font-size: 1.3rem;
-}
+
 .form_img_div{
   width:40%;
   padding: 2rem;

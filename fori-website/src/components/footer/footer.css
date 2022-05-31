@@ -37,15 +37,38 @@
   border-radius: 1rem;
 }
 .f_text_icon span {
-  font-weight: lighter;
+  /* font-weight: lighter; */
   /* text-align:center; */
   font-size: 1rem;
   padding: 1rem .5rem;
+  
+}
+.f_text_icon p {
+  /* font-weight: lighter; */
+  /* text-align:center; */
+  font-size: 1rem;
+  padding: 1rem .5rem;
+
+}
+.f_text_icon a {
+  font-weight: lighter;
+  text-decoration: none;
+  color: black;
+  /* text-align:center; */
+  font-size: 1rem;
+  padding: 1rem .5rem;
+}
+
+.f_text_icon a:hover {
+
+  color: #e12121;
+
 }
 .f_form {
   display: flex;
   flex-direction: column;
 }
+
 .f_name {
   padding: 0.8rem;
   margin: 0.2rem;
@@ -62,6 +85,11 @@
   font-size: 1rem;
   color: #adadad;
   padding-left: 0.2rem;
+}
+
+.f_name:focus{
+  border:0.1rem solid #ffded7;
+  outline: none
 }
 .f_name::-webkit-progress-value {
   color: #e21212;
